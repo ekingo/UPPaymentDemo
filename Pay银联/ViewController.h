@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UPPaymentControl.h"
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSMutableData *responseData;
 
 @end
 
